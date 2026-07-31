@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ─── Brand Surface Palette ─── */
+  --background:           #F7F6F3;
+  --foreground:           #1F2937;
+  --card:                 #1A4133;
+  --card-foreground:      #F4F1E8;
+  --popover:              #0A1F18;
+  --popover-foreground:   #F4F1E8;
+
+  /* ─── Brand Accent (gold) + Secondary (charcoal) ─── */
+  --primary:              #C9A15A;
+  --primary-foreground:    #0A1F18;
+  --secondary:            #232323;
+  --secondary-foreground: #F4F1E8;
+  --muted:                #0A1F18;
+  --muted-foreground:     #C9C4B5;
+
+  /* ─── Semantic ─── */
+  --accent:               #0F2E24;
+  --accent-foreground:    #F4F1E8;
+  --destructive:          #DC2626;
+  --destructive-foreground: #FFFFFF;
+
+  /* Hairline gold/15 borders */
+  --border:               rgba(201, 161, 90, 0.15);
+  --input:                rgba(201, 161, 90, 0.2);
+  --ring:                 #C9A15A;
+  --radius:               1rem;
+
+  /* ─── Direct Brand Tokens ─── */
+  --emerald:        #0F2E24;
+  --emerald-deep:   #0A1F18;
+  --emerald-soft:   #1A4133;
+  --gold:           #C9A15A;
+  --gold-bright:    #E0BC7A;
+  --gold-deep:      #8A6E3A;
+  --ivory:          #F4F1E8;
+  --charcoal:       #232323;
+
+  /* ─── Motion tokens ─── */
+  --ease-expo:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out:     cubic-bezier(0.25, 1, 0.5, 1);
+  --dur-fast:     150ms;
+  --dur-base:     300ms;
+  --dur-slow:     650ms;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
