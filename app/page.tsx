@@ -165,7 +165,20 @@ export default function Home() {
             letterSpacing: "0.03em",
           }}
         >
-          Something amazing is on the way. Stay tuned.
+          India's finest sports nutrition — launching soon.
+        </p>
+        <p
+          style={{
+            fontFamily: "var(--font-montserrat)",
+            fontSize: "clamp(0.9rem, 2vw, 1.1rem)",
+            fontWeight: 400,
+            color: "var(--gold)",
+            textAlign: "center",
+            maxWidth: "500px",
+            letterSpacing: "0.03em",
+          }}
+        >
+          We're taking orders now via WhatsApp!
         </p>
 
         {/* WhatsApp CTA */}
